@@ -28,7 +28,7 @@
 - **Canary deployments.** Validate new code in production with a subset of users, then upgrade the rest.
 - Keep metrics and alerts for services in production to find and correct bugs before users are affected.
 - When a bug is found, add at least one new test case that covers it to the automated suite. Bad LLM outputs found in production are added to the eval set.
-- If any part of the product uses an LLM, observability is no longer optional. A model upgrade can degrade quality without changing a single line of application code.
+- If any part of the product uses an LLM, observability is not optional. A model upgrade can degrade quality without changing a single line of application code.
 
 ## E2E Automation
 
